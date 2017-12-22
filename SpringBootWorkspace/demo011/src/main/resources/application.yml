@@ -1,0 +1,9 @@
+spring:
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+  http:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 2048MB

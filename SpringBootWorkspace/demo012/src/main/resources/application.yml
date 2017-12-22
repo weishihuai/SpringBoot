@@ -1,0 +1,4 @@
+#屏蔽某个包下面不输出日志，注意： 'off' 必须加上引号
+logging:
+  level:
+    com.example.demo.controller: 'off'
